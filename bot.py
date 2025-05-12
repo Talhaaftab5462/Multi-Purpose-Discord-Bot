@@ -35,7 +35,7 @@ REACTION_LOG_CHANNEL_ID = int(os.getenv('REACTION_LOG_CHANNEL_ID'))  # For react
 counting_log_channel_id = int(os.getenv('COUNT_LOG_CHANNEL_ID'))
 bad_counter_role_id = int(os.getenv('BAD_COUNTER_ROLE_ID'))
 COUNTDOWN_CHANNEL_ID = int(os.getenv("COUNTDOWN_CHANNEL_ID"))
-TARGET_DATE = datetime(2026, 5, 26, 0, 0, 0, tzinfo=timezone.utc)  # Set the target date (24th October 2025)
+TARGET_DATE = datetime(2026, 5, 26, 0, 0, 0, tzinfo=timezone.utc)  # Set the target date (26th May 2026)
 # ---------------------- Couting Data Variables ----------------------
 SAVE_LIMIT = int(os.getenv('SAVE_LIMIT'))
 SAVE_COOLDOWN_HOURS = int(os.getenv('SAVE_COOLDOWN_HOURS'))
